@@ -13,5 +13,5 @@ echo "done < package_list.txt" >> "$install_script"
 
 chmod +x "$install_script"
 
-echo "Package list saved to $package_list_file"
+echo "Package list saved to package_list.txt"
 echo "To install these packages on another computer, transfer $package_list_file and $install_script to that computer, and then run ./$install_script"
